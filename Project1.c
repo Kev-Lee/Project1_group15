@@ -72,6 +72,14 @@ int ques1(int x) {
 
 }
 
+/* answer 1 */
+int ans1(int x) {
+    if(x==0)
+        return 1;
+    else
+        return 0;
+}
+
 /* question 2 */
 int ques2(x) {
     int mask = x>>31;
