@@ -89,6 +89,14 @@ int ques2(x) {
     return (y+z);
 }
 
+/* answer 2 */
+int ans2(int x) {
+    if(x>=0)
+        return x;
+    else
+	return (-1*x);
+}
+
 /* question 3 */
 int ques3(int x){
     int y = !x;
