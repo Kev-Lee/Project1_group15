@@ -219,7 +219,8 @@ int ques10(int x) {
 
 /* answer 10 */
 int ans10(int x) {
-    if(x==2147483648)
+    int y = 1<<31;
+    if(x==y)
 	return 1;
     else
 	return 0;
