@@ -25,3 +25,7 @@
 12) Question 12 takes in three inputs, x , m, and n. The code initializes a to be equal to the 2's complement of m or the negated value of m with ~m+1, and the code also initializes b to be equal to the 2's complement of x which is equal to the negated value of x with ~x+1. When trying to figure out what a and b are equal to, you can look at a and b as negated values, so x+a is equivalent to x-m and b+n is equivalent to -x+n. The return value is fully dependent on whether there is a 1 in the 32nd bit because when shifting the number 31 times to the left, that would make it 32 bits of 1's instead of 0's making the return value 0 instead of 1 after the logical negation. The 1 will only be in the 32nd bit when the you or a and b and one of them are negative, so in the cases where x-m and n-x are negative, the return value will be 0 and for the rest, the return value will be 1. 
 
 13) 
+
+14)
+
+15)
