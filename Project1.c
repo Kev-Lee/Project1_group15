@@ -139,13 +139,20 @@ int ans4(int n) {
 }
 
 /* question 5 */
-
 int ques5(int x) {
     int result = (x<<31);
     result = (result >> 31);
 
     return result;
 
+}
+
+/* answer 5 */
+int ans5(int x) {
+    if(x%2==1)
+        return -1;
+    else
+        return 0;
 }
 
 /* question 6 */
