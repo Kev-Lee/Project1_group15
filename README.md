@@ -1,1 +1,3 @@
-# Project1_group15
+# Project1_group15 </br>
+
+1) Question 1 take an input x and takes the 2's complement of x by taking the invert of x and adding 1. Then z is taken as the invert of y or x, and this value is shifted 31 bits to the right. It then returns z & 1. This is dependent on what input is taken in. If x is anything other than 0, the code will return 0. If the input is 0, then the 2's complement of it to get 32 to bits of 0's because of the +1 overflow, and then we take the complement of 32 bits of 0's to get 32 bits of 1's. Shifting that 31 times to the right gives us 1 as the final value of z, and z & z is equal to 1.  
