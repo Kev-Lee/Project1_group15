@@ -227,7 +227,6 @@ int ans10(int x) {
 }
 
 /* question 11 */
-
 int ques11(int x, int y) {
 	int a = x >> 31;
 	int b = y >> 31;
@@ -244,6 +243,14 @@ int ques12(int x, int m, int n) {
     b = b + n;
 
     return !((a|b) >> 31);
+}
+
+/* answer 12 */
+int ans12(int x, int m, int n) {
+    if((n-x<0)||(x-m<0))
+	return 0;
+    else
+	return 1;
 }
 
 /* question 13 */
