@@ -106,6 +106,14 @@ int ques3(int x){
     return !z;
 }
 
+/* answer 3 */
+int ans3(int x) {
+    if(x<=0)
+        return 0;
+    else
+	return 1;
+}
+
 /* question 4 */
 /* Assume 0 <= n <= 32 */
 int ques4(int n) {
