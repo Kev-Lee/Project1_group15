@@ -13,3 +13,7 @@
 6) Question 6 intializes byte as 0x55 which is equivalent to 0101 0101. Then the code takes byte and shifts it to the left 8 bits filled with 0's and ors it with byte which gives us 0101 0101 or 0101 0101 0000 0000 which is is equivalent to 0101 0101 0101 0101. The same concept is used in the next line, just with a 16 bit shift, effectively doubling the bit value again giving us 8 blocks of 0101.
 
 7) Question 7 takes an input of x. ~x+1 is equlivalent to the 2's complement of x. With bitwise and, if you and x and its 2's complement, you get a bit value equal to sets of 0's followed by a 1 in the slot where the rightmost 1 is located on x, followed by more 0's.
+
+8) Question 8 takes in an input of x. Depending on x, if it is negative y is equal to 32 bits of 1's or -1 because it would be a 1 in the 32nd bit shifted over 31 times filling the rest of the slots with 1's, and if it is 0 or positive y is equal to 32 bits of 0's or 0 because there would be a 0 in the 32nd slot and shifted of 31 times to the right would just be 0. z, which also depends on x, is 0 if x is equal to 0 and is 1 if x is not equal to 0. Bitwise or'ing y and z would give us 32 bits of 1's when x is negative because it is only dependent on y when x is 0, equaling -1. Bitwise or'ing y and z would give us 32 bits of 0's when x is 0 because it would just be 32 bits of 0 or 0. Bitwise or'ing y and z would give us 1 bit of 1 when x is positive because z would be 1 and y is still 32 bits of 0's, thus only being dependant on the 1 bit of 1. 
+
+9) 
