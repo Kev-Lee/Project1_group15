@@ -125,6 +125,18 @@ int ques4(int n) {
     return x & y;
 }
 
+/* answer 4 */
+int ans4(int n) {
+    if(x>0)
+    {
+        int x = 1;
+        x = x<<31;
+        x = x>>n-1;
+        return x;
+    }
+    else
+	return 0;
+}
 
 /* question 5 */
 
