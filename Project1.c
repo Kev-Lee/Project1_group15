@@ -174,6 +174,10 @@ int ques7(int x) {
     return x & (~x+1);
 }
 
+/* answer 7 */
+int ans7(int x) {
+    return x & (~x+1);
+}
 
 /* question 8 */
 int ques8(int x) {
