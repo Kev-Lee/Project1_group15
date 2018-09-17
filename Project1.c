@@ -187,6 +187,16 @@ int ques8(int x) {
     return y | z;
 }
 
+/* answer 8 */
+int ans8(int x) {
+    if(x>0)
+	return 1;
+    else if(x<0)
+	return -1;
+    else
+	return 0;
+}
+
 /* question 9 */
 
 int ques9(int x, int n, int c) {
