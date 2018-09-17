@@ -210,7 +210,6 @@ int ques9(int x, int n, int c) {
 
 
 /* question 10 */
-
 int ques10(int x) {
 	int y = !!x;
 	int z = (!(x+x));
@@ -218,6 +217,13 @@ int ques10(int x) {
     return y & z;
 }
 
+/* answer 10 */
+int ans10(int x) {
+    if(x==2147483648)
+	return 1;
+    else
+	return 0;
+}
 
 /* question 11 */
 
