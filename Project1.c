@@ -127,11 +127,11 @@ int ques4(int n) {
 
 /* answer 4 */
 int ans4(int n) {
-    if(x>0)
+    int x = 1;
+    if(n>0)
     {
-        int x = 1;
         x = x<<31;
-        x = x>>n-1;
+        x = x>>(n-1);
         return x;
     }
     else
