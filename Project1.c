@@ -81,7 +81,7 @@ int ans1(int x) {
 }
 
 /* question 2 */
-int ques2(x) {
+int ques2(int x) {
     int mask = x>>31;
     int y= (x ^ mask);
     int z = (~mask + 1);
