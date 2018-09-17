@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /* 
-Group number: 
-Team members: 
+Group number: 15
+Team members: Harmon Mendelowitz, Kevin Lee, Xingzhi Ma
 */
 
 /* PROJECT 1 */
