@@ -169,10 +169,8 @@ int ans6(void) {
     return byte | byte<<8 | byte<<16 | byte<<24;
 }
 
-    /* question 7 */
-
+/* question 7 */
 int ques7(int x) {
-
     return x & (~x+1);
 }
 
