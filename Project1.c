@@ -156,7 +156,6 @@ int ans5(int x) {
 }
 
 /* question 6 */
-
 int ques6(void) {
     int byte = 0x55;
     int word = byte | byte<<8;
@@ -164,6 +163,11 @@ int ques6(void) {
     return word | word<<16;
 }
 
+/* answer 6 */
+int ans6(void) {
+    int byte = 0x55;
+    return byte | byte<<8 | byte<<16 | byte<<24;
+}
 
     /* question 7 */
 
