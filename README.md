@@ -12,4 +12,4 @@
 
 6) Question 6 intializes byte as 0x55 which is equivalent to 0101 0101. Then the code takes byte and shifts it to the left 8 bits filled with 0's and ors it with byte which gives us 0101 0101 or 0101 0101 0000 0000 which is is equivalent to 0101 0101 0101 0101. The same concept is used in the next line, just with a 16 bit shift, effectively doubling the bit value again giving us 8 blocks of 0101.
 
-7) 
+7) Question 7 takes an input of x. ~x+1 is equlivalent to the 2's complement of x. With bitwise and, if you and x and its 2's complement, you get a bit value equal to sets of 0's followed by a 1 in the slot where the rightmost 1 is located on x, followed by more 0's.
