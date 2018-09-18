@@ -301,7 +301,6 @@ int ans14(int x) {
 }
 
 /* question 15 */
-
 int ques15(int x, int n) {
     /* for ques15 only, assume n is not a negative number  */
 
@@ -311,6 +310,19 @@ int ques15(int x, int n) {
     return (z & x);
 }
 
+/* answer 15 */
+int ans15(int x, int n) {
+    /* for ques15 only, assume n is not a negative number  */
+
+    int y;
+    int a=0;
+    for(y=0; y<=n; y++)
+    {
+	a = a<<1;
+	a = a|1;
+    }
+    return x & a;
+}
 
 
 
