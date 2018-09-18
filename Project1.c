@@ -289,14 +289,12 @@ int ques14(int x) {
 
 /* answer 14 */
 int ans14(int x) {
-    int y;
-    int s = x;
-    result = 0;
-    for(y=0; y<32; y++)
-    {
-        result ^= s&1;
-        s = s>>1;
-    }
+    int result = 0;
+    int i;
+
+    for (i = 0; i < 32; i++)
+        result ^=  (x >> i) & 0x1;
+
     return result;
 }
 
