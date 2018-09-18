@@ -26,6 +26,6 @@
 
 13) 
 
-14)
+14) Question 14 takes in an input x, and then initializes result to equal 0 and an int i. For the loop, it has an exclusive or assignment to result taking the last bit and comparing it to 1 and constantly shifting once to the right, basically checking every bit for 32 bits. If you have a 1, you and that with a 1, getting a 1, and then exculsive or assignment to the existing 0 to to get a 1 as result. Following this pattarn, the code is looking for you if you have either an even or odd amount of 1's in the bit equivalent of the number. The code would print 0 if there are an even number of 1 bits and print 1 if there are an odd number of 1 bits.
 
-15)
+15) 
