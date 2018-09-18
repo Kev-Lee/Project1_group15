@@ -287,6 +287,19 @@ int ques14(int x) {
     return result;
 }
 
+/* answer 14 */
+int ans14(int x) {
+    int y;
+    int s = x;
+    result = 0;
+    for(y=0; y<32; y++)
+    {
+        result = s&1;
+	s = s>>1;
+    }
+    return result;
+}
+
 /* question 15 */
 
 int ques15(int x, int n) {
