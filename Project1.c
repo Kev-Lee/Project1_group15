@@ -314,7 +314,7 @@ int ans15(int x, int n) {
 
     int y;
     int a=0;
-    for(y=0; y<=n; y++)
+    for(y=0; y<n; y++)
     {
 	a = a<<1;
 	a = a|1;
