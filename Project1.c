@@ -295,7 +295,7 @@ int ans14(int x) {
     for(y=0; y<32; y++)
     {
         result ^= s&1;
-	s = s>>1;
+        s = s>>1;
     }
     return result;
 }
