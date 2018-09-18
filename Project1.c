@@ -272,7 +272,6 @@ int ans12(int x, int m, int n) {
 }
 
 /* question 13 */
-
 int ques13(int x) {
 
     int mask1, mask2, mask4, mask8, mask16;
@@ -292,6 +291,19 @@ int ques13(int x) {
     x = (x & mask16) + ((x >> 16) & mask16);
 
     return x;
+}
+
+/* answer 13 */
+int ans13(int x) {
+    int y = 0;
+    int z = x;
+    int sum = 0;
+    for(y=0; y<32; y++)
+    {
+	 sum = sum+(z&1); 
+	 z>>1;
+    }
+    return sum;
 }
 
 /* question 14 */
