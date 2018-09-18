@@ -243,7 +243,7 @@ int ques11(int x, int y) {
 }
 
 /* answer 11 */
-int ques11(int x, int y) {
+int ans11(int x, int y) {
 	if(x < y){
 		return 1;
 	}
