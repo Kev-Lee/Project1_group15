@@ -356,25 +356,58 @@ int ans15(int x, int n) {
 
 int
 main(){
-    int a, b;
+    int a, b, c;
 
-    int t1;
+    int t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12, t13, t14, t15;
 
  	printf("Enter first number, an integer stored into variable A preferably between 1 and 20:");
  	scanf ("%d",&a);
 	printf("\n");
  	printf("Enter second number, an integer stored into variable B preferably between 1 and 20:");
  	scanf ("%d", &b);
+ 	printf("Enter third number, an integer stored into variable B preferably between 1 and 20:");
+ 	scanf ("%d", &c);
 	printf("\n");
 
 
-	printf("you entered a= %d b= %d  \n", a,b);
+	printf("you entered a= %d b= %d c= %d \n", a,b,c);
 
 
-	t1=ques0(a,b);
-	printf("output of ques0 is t1 = %d  \n", t1);
+  t1=ans1(a);
+  t2=ans2(a);
+  t3=ans3(a);
+  t4=ans4(a);
+  t5=ans5(a);
+  t6=ans6();
+  t7=ans7(a);
+  t8=ans8(a);
+  t9=ans9(a, b, c);
+  t10=ans10(a);
+  t11=ans11(a, b);
+  t12=ans12(a, b, c);
+  t13=ans13(a);
+  t14=ans14(a);
+  t15=ans15(a, b);
+  
+	printf("%d\n", t1);
+  printf("%d\n", t2);
+  printf("%d\n", t3);
+  printf("%d\n", t4);
+  printf("%d\n", t5);
+  printf("%d\n", t6);
+  printf("%d\n", t7);
+  printf("%d\n", t8);
+  printf("%d\n", t9);
+  printf("%d\n", t10);
+  printf("%d\n", t11);
+  printf("%d\n", t12);
+  printf("%d\n", t13);
+  printf("%d\n", t14);
+  printf("%d\n", t15);
+  
     /* To test/run the functions, you will need to input numbers and then call each of the functions, and print the return value */
 
 
 	return 0;
 }
+
