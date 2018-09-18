@@ -242,6 +242,16 @@ int ques11(int x, int y) {
     return !((!a & b) | (!(a ^ b) & (y+~x)>>31));
 }
 
+/* question 11 */
+int ques11(int x, int y) {
+	if(x < y){
+		return 1;
+	}
+	else{
+		return 0;
+	}
+}
+
 
 /* question 12 */
 int ques12(int x, int m, int n) {
